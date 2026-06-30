@@ -1,18 +1,27 @@
 export default function Home() {
   return (
-    <main className="home">
-      <div className="stamp stamp-photo">
-        <img src="/assets/home-image.jpg" alt="A Sector 71 letter on a desk with a cup of coffee" />
+    <main>
+      <div className="home-header">
+        <h1>a monthly mail club</h1>
       </div>
+      <div className="home-body">
+        <div className="stamp stamp-photo">
+          <img src="/assets/home-image.png" alt="A Sector 71 letter" />
+        </div>
 
-      <div className="stamp stamp-card">
-        <h1>Welcome to Sector 71!</h1>
-        <p>
-          My writing, a handwritten letter, and a small gift straight in your
-          mailbox &ndash; every month.
-        </p>
-        <button onClick={() => window.open('https://buy.stripe.com/3cIaEXdPl9JUcYjdjl8ww00', '_blank')} className="signup-btn">Sign up!</button>
+        <div className="stamp stamp-card">
+          <p>
+            Original writing, a handwritten letter, and a small gift in your
+            mailbox &mdash; every month.
+          </p>
+          <button
+            onClick={() => (window.location.href = '/about')}
+            className="signup-btn"
+          >
+            Learn more
+          </button>
+        </div>
       </div>
     </main>
-  )
+  );
 }
