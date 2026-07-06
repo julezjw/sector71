@@ -3,9 +3,13 @@ export default function AboutSector71() {
     <main className="about-sector71">
       <h1>About Sector 71</h1>
       <div className="about-grid">
-        <iframe width="500" height="315"
-          src="https://www.youtube.com/embed/5_VYlFEOhqE">
-        </iframe>
+        <div className="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/5_VYlFEOhqE"
+            title="Sector 71"
+            allowFullScreen
+          ></iframe>
+        </div>
 
         <div>
           <p>
@@ -49,7 +53,7 @@ export default function AboutSector71() {
           you. For a 6&ndash;month subscription, the cost range is $60&ndash;$100.
         </p>
         <br />
-        <p>I make almost no profit from this right now. I do it because I love it. I hope you do too :) .</p>
+        <p>I make almost no profit from this right now. I do it because I love it. I hope you do too.</p>
       </div>
     </main>
   );
