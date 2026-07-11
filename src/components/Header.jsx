@@ -9,7 +9,7 @@ export default function Header() {
       <nav className="nav">
         <NavLink to="/about-me">about me</NavLink>
         <span className="divider">|</span>
-        <NavLink to="/about">about sector 71</NavLink>
+        <NavLink to="/about">about Sector 71</NavLink>
         <span className="divider">|</span>
         <Link
           to="https://sector71.substack.com/"

@@ -31,11 +31,12 @@ export default function AboutMe() {
 
         <div className="about-body">
           <p>Dear reader,</p>
-          <p>Those who know me know I've always loved sending and receiving mail. In my opinion, handwritten letters are a lost art and one of the truest ways to communicate, because of the deliberation and anticipation they require.</p>
-          <p>I started this mail club to reintroduce care and intimacy into how we connect. In a digital world where everything is always at our fingertips, there's something special about letting things take their time to come to you.</p>
-          <p>My work has been featured in Oyster River Pages and The San Franciscan, but my main credentials come from my sixth grade elementary school teacher who told me I was going to be a writer one day. Mr. Rivera, you got it so right.</p>
+          <p>Those who know me know I've always loved mail. Mail is the antithesis to how we communicate in our modern, digital world. It requires patience as it arrives and deliberation as it is read.</p>
+          <p>This mail club combines my love for mail and my love for writing. In each envelope, you’ll find an unedited piece of me – a thought, a feeling, or a new style of writing that I’m trying to explore.</p>
+          <p>I pour my heart into this project each month. I hope you love it as much as I do.</p>
           <p>Sincerely,</p>
           <p>Navya</p>
+          <p>P.S. My work has been featured in Oyster River Pages and The San Franciscan, but my main credentials come from my sixth grade teacher, Mr. Rivera, who told me I was going to be a writer one day.</p>
         </div>
       </div>
     </main>

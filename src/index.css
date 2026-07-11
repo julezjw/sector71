@@ -333,6 +333,11 @@ button {
   }
 }
 
+.about-sector71 .signup-btn {
+  font-size: 18px;
+  padding: 8px 18px;
+}
+
 .about-sector71 h1 {
   font-size: 32px;
   padding: 0 0 24px;
@@ -369,7 +374,7 @@ button {
   p { 
     max-width: 800px;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -380,6 +385,10 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 0;
+  }
+
+  .about-sector71 .about-grid {
+    gap: 24px;
   }
 
   .about-photo {
@@ -408,6 +417,7 @@ button {
   .about-sector71 {
     padding: 20px 8%;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -418,10 +428,14 @@ button {
   }
 
   .nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 15px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    font-size: 13px;
     gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
   }
 
   .logo {
@@ -467,8 +481,6 @@ button {
   }
 
   .pricing p {
-    padding: 0 16px;
     text-align: left;
-
   }
 }
