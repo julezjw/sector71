@@ -394,15 +394,14 @@ button {
   .about-photo {
     order: 1;
     align-self: flex-end;
-    margin-right: 12px;
+    margin-right: 0;
   }
 
   .note {
     order: 2;
     align-self: flex-start;
-    margin: -350px 0 0 24px;
+    margin: -350px 0 0 0;
     z-index: 5;
-    width: 200px;
   }
 
   .about-body {
